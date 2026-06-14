@@ -3,43 +3,21 @@ public class sele{
      public static void main(String[] args) {
     Scanner repeat = new Scanner(System.in);
 
-    System.out.println("enter the number of day");
+    System.out.println("enter the letter");
 
-    int day = repeat.nextInt();
+    char day = repeat.next().charAt(0);
 
     switch(day)
     {
-        case 1:
-        System.out.println("it is sunday");
+        case 'a','v','i','o','u':
+        
+        System.out.println(day  +"  "+"it is an vowel ");
         break;
 
-        case 2:
-            System.out.println("it is monday");
-            break;
 
-            case 3:
-                System.out.println("it is tuesday");
-                break;
-
-                case 4:
-                    System.out.println("it is wednesday");
-                    break;
-
-                    case 5:
-                        System.out.println("it is thusday");
-                        break;
-
-                        case 6:
-                            System.out.println("it is friday");
-                            break;
-
-                            case 7:
-                                System.out.println("it is saturday");
-                                break;
-
-                                default:
-                                    System.out.println("pls enter the value betweem 1-7");
+        default:
+                                    System.out.println(day+"  "+"is a constant");
 
 
-    }
-}}
+    
+}}}
