@@ -6,7 +6,7 @@ public class typeconverion {
 
     b=(int)d; 
     //we could able to assign the float to a int cause int has bigger bit value comoared to float but not int to float as int has 4 byte 
-    System.out.println(b);
+    System.out.println(c+b);
 }
     
 }
