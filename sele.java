@@ -16,8 +16,6 @@ public class sele{
 
 
         default:
-                                    System.out.println(day+"  "+"is a constant");
+        System.out.println(day+"  "+"is a constant");
 
-
-    
 }}}
