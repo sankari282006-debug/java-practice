@@ -1,5 +1,7 @@
 class student{
 
+   //class is something like blue print of the object
+
    int regno;
    String name;
    float cgpa;
@@ -7,6 +9,8 @@ class student{
   
 
  public static void main(String[] args) {
+
+   //inside a main fn we r able to create and access a object
 
     student student = new student();
     student.regno=8;
