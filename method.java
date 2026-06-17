@@ -1,19 +1,19 @@
-import java.util.Scanner;
 
 public class method {
+    
+    int breadth;
+    int length;
+    int width;
 
-    static boolean check(int a){
-        if(a>10 && a<100){
-            return true;
-        }
-        else
-        return false;
-         }
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("pls enter the value of a");
-        int a = scanner.nextInt();
-      boolean value= check(a);
-        System.out.println(value);
+    int volume(){
+        return(length*breadth*width);
     }
+    public static void main(String[] args) {
+     method obj = new method();
+     obj.breadth=78;
+     obj.length=56;
+     obj.width=90;
+     System.out.println(obj.volume());
+
+    }        
 }
